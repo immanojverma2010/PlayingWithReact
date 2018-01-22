@@ -1,8 +1,8 @@
 {
-  "name": "react-babel-webpack-boilerplate",
+  "name": "playing-with-react",
   "version": "1.4.1",
   "description": "A boilerplate for React-Babel-Webpack project",
-  "main": "app/main.jsx",
+  "main": "app/index.jsx",
   "scripts": {
     "precommit": "npm run lint",
     "commitmsg": "npm run lint:msg",
@@ -20,7 +20,10 @@
   "dependencies": {
     "babel-runtime": "6.x",
     "react": "15.x",
-    "react-dom": "15.x"
+    "react-dom": "15.x",
+    "react-infinite": "^0.12.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-core": "6.x",
@@ -55,8 +58,8 @@
     "web app",
     "boilerplate"
   ],
-  "author": "Ruan Yifeng",
-  "license": "MIT",
+  "author": "Manoj",
+  "license": "",
   "config": {
     "validate-commit-msg": {
       "types": [

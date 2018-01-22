@@ -1,19 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Header from './Header'
+import Main from './Main'
 
-require('./App.css');
+const App = () => (
+  <div>
+    <Header />
+    <Main />
+  </div>
+)
 
-export default () => <h1>Hello World</h1>;
-
-/*
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <h1>Hello World</h1>
-    );
-  }
-}
-*/
+export default App

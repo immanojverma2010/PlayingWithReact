@@ -58,4 +58,5 @@ Attention, when committing your code, you should use [AngularJS's commit message
 
 ## License
 
-MIT
+
+# PlayingWithReact
